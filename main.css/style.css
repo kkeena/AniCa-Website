@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width:100%;
+    height: auto 0;
+}
+
+hr {
+    width:60%;
+    size:24px;
+}
+  
+/*--Line Divider--*/
+.col {
+    width: 960px;
+    height: 0.4em;
+    background-color:#E5E5E5;
+    
+}
+
+.text-center {
+    text-align:center;
+}
+
+
+/*---Navigation---*/
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    color:#1980dd;
+    text-decoration: none;
+    position:relative;
+    
+}
+
+.wrapper1 {
+    width: 435px;
+    margin: 0 auto;
+    
+}
+
+header {
+    width:100%;
+    height: 70px;
+    background-color:#fff;
+}
+
+header img {
+    width: 45px;
+    height:auto;
+    margin-top:10px;
+}
+
+nav {
+    float: right;
+    margin-top: 21px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    text-transform:uppercase;
+    font-weight:600;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+nav ul li a:before {
+    content: "";
+    position:absolute;
+    width:100%;
+    height:3px;
+    bottom:-3px;
+    left:0;
+    background-color: #1980dd;
+    visibility:hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    text-decoration:none;
+}
+
+nav ul li a:hover:before {
+    visibility:visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);    
+
+}
+
+/*---Header---*/
+
+.Header {
+    background-image: url(../_img/pexels-photo-160107.jpeg);
+    background-size:cover;
+    padding: 10em 0;
+    text-align: center;
+    height:93vh;
+}
+
+.Header .intro-text {
+    font-size: 12vh;
+    color:#fff;
+    font-weight:900;
+}
+
+.span-1 {
+    color:#1980dd;
+}
+
+.span-1:hover {
+    text-decoration:none;
+    transition:0.3s;
+}
+
+span-2 {
+    display:block;
+    font-size:0.3em;
+
+}
+
+.button {
+    font-size:1.5rem;
+    border-width: 2px;
+    border-style: solid;
+    padding: .3em 1.9em;
+    border-radius:0.8em;
+    top:2em;
+    
+}
+
+.button-master:hover {
+    background:#fff;
+    color:#1980dd;
+    transition:1s;
+    text-decoration: none;
+    
+}
+
+
+/*--Our Services--*/
+
+.container {
+    padding:1em;
+}
+
+.text-center {
+    text-align: center;
+    padding-bottom:1em;
+}
+
+h1 {
+    text-align: center;
+    padding:1em 0;
+    font-weight:700;
+    color:#1980dd;
+    font-family:'Noto Sans', sans-serif;
+    
+}
+
+.col-md-4 h2 {
+    font-weight: 800;
+}
+
+p1 {
+    font-size: 20px;
+}
+
+/*---Contact Us---*/
+
+.wrapper4 {
+    background-color: #1980dd;
+    
+}
+
+.emailtext {
+    text-align:center;
+    padding:4.5em;
+    color:#fff;
+    font-weight:400;
+    font-size: 1.5em;
+
+}
+
+.subemail {
+    color:#16277F;
+}
+
+.subemail:hover {
+    text-decoration: none;
+    color:white;
+    transition: 0.4s;
+}
+
+/*---About Us---*/
+
+.aboutuspar {
+    font-size: 19px;
+    padding: 3em;
+
+}
+.col-md-4 h3 {
+    font-size: 15px;
+}
+
+.col-md-4 .prof {
+    width:60%;
+    height:auto 0;
+}
+h3 {
+    font-style:italic;
+    padding:2em 2em 0 2em;
+}
+
+.col-md-4 .proflink {
+    text-decoration:none;
+}
+
+/*--Footer--*/
+
+/*--Scroll-Button--*/
+.scroll-to-top-link {
+    position:fixed;
+    width:50px;
+    right:40px;
+    bottom:40px;
+    cursor:pointer;
+    z-index:100;
+    display:none;
+}
+
+.scroll-to-top-link:hover {
+    transform:scale(1.3);
+    transition: 0.4s;
+}
+
