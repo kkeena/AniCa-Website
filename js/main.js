@@ -38,8 +38,6 @@ $('a[href*="#"]')
     }
   });
 
-
-
 // ===== Scroll to Top ==== //
 $(window).scroll(function() {
   if ($(this).scrollTop() >= 100) {        // If page is scrolled more than 50px
@@ -53,5 +51,4 @@ click(function() {      // When arrow is clicked
       scrollTop : 0                       // Scroll to top of body
   }, 500);
 });
- 
 

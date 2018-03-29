@@ -11,6 +11,10 @@ hr {
     width:60%;
     size:24px;
 }
+
+.fadein {
+    opacity:0;
+}
   
 /*--Line Divider--*/
 .col {
@@ -184,7 +188,8 @@ p1 {
 
 .emailtext {
     text-align:center;
-    padding:4.5em;
+    padding:3.5em;
+    padding-bottom: 0;
     color:#fff;
     font-weight:400;
     font-size: 1.5em;
@@ -199,6 +204,13 @@ p1 {
     text-decoration: none;
     color:white;
     transition: 0.4s;
+}
+
+.icons {
+    text-align:center;
+    padding:0;
+    padding: 2.5em;
+    letter-spacing: 1em;
 }
 
 /*---About Us---*/
